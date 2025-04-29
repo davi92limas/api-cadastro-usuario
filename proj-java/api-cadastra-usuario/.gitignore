@@ -35,3 +35,46 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Ignorar arquivos de sistema
+*.log
+*.tmp
+*.sys
+
+# Ignorar diretórios de usuário e sistema
+$Recycle.Bin/
+.cache/
+.config/
+AMD/
+Ecetesb/
+Intel/
+MSI/
+Playwright/
+Program Files/
+Program Files (x86)/
+ProgramData/
+QA/
+Recovery/
+Teclado/
+Temp/
+Users/
+Windows/
+book/
+codeInBook/
+estudos-type/
+estudos/
+fullcycle/
+hiberfil.sys
+jaspersoftstudio/
+java/
+nvm4w/
+pagefile.sys
+path/
+projeto/
+swapfile.sys
+themes/
+
+# Ignorar arquivos que não fazem parte do projeto
+../gradle/
+../image.png
+../security/
